@@ -38,7 +38,8 @@ public class Scene {
 		// define the mesh - a collection of vertices that make up a square.
 		// @formatter:off
 		
-		vertices = new Vector4f[] {
+		vertices = new Vector4f[] { //the vertices are here
+			/*
 			new Vector4f(1.0f, 1.0f, 0.0f, 1.0f),
 			new Vector4f(-1.0f, 1.0f, 0.0f, 1.0f),
 			new Vector4f(-1.0f, -1.0f, 0.0f, 1.0f),
@@ -46,6 +47,26 @@ public class Scene {
 			new Vector4f(-1.0f, -1.0f, 0.0f, 1.0f),
 			new Vector4f(1.0f, -1.0f, 0.0f, 1.0f),
 			new Vector4f(1.0f, 1.0f, 0.0f, 1.0f),
+			*/
+				/*new Vector4f(0.0f, 1.0f, 0.0f, 1.0f),
+				new Vector4f(-1.0f, 0.0f, 0.0f, 1.0f),
+				new Vector4f(0.0f, -1.0f, 0.0f, 1.0f),
+				
+				new Vector4f(0.0f, -1.0f, 0.0f, 1.0f),
+				new Vector4f(1.0f, 0.0f, 0.0f, 1.0f),
+				new Vector4f(0.0f, 1.0f, 0.0f, 1.0f),
+				*/
+				
+				new Vector4f(0.0f, 0.5f, 0.0f, 1.0f),
+				new Vector4f(-0.5f, 0.0f, 0.0f, 1.0f),
+				new Vector4f(0.0f, -0.5f, 0.0f, 1.0f),
+				
+				new Vector4f(0.0f, -0.5f, 0.0f, 1.0f),
+				new Vector4f(0.5f, 0.0f, 0.0f, 1.0f),
+				new Vector4f(0.0f, 0.5f, 0.0f, 1.0f),
+			
+			
+			
 		};
 			
 		// @formatter:on
